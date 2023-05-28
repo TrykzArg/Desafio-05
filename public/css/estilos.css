@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #4c7b9d;
+  background-image: url(../img/ciudad.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #253B5D;
+  height: 206vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  font-family: Lobster;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #DF3448;
+  margin-bottom: 2rem;
+  height: 9vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+header h1 {
+  text-shadow: 2px 2px 2px black;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #acdadc;
+  box-shadow: 5px 4px 5px #779697 inset;
+  border-radius: 1.3rem;
+  width: 80%;
+  height: auto;
+  margin-top: 8rem;
+}
+
+main h2 {
+  text-align: center;
+  color: red;
+  text-shadow: #CCC 1px 0 10px;
+  font-family: Lobster;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+main h2:first-child {
+  padding: 4rem 0px 1.5rem 0px;
+}
+
+main p.subtitulo {
+  text-align: center;
+  color: #393E61;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+main p.subtitulo::first-letter {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+main p {
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding: 0px 1.3rem 1.3rem 1.3rem;
+}
+
+main p::first-letter {
+  font-family: Lobster;
+  font-size: 2rem;
+}
+
+main p:last-child {
+  padding-bottom: 20vh;
+}
+
+picture {
+  position: relative;
+  bottom: 120px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
