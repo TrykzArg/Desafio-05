@@ -37,7 +37,6 @@ header {
   position: fixed;
   top: 0;
 }
-
 header h1 {
   text-shadow: 2px 2px 2px black;
 }
@@ -52,7 +51,6 @@ main {
   height: auto;
   margin-top: 8rem;
 }
-
 main h2 {
   text-align: center;
   color: red;
@@ -61,11 +59,9 @@ main h2 {
   font-size: 2rem;
   padding-bottom: 1rem;
 }
-
 main h2:first-child {
   padding: 4rem 0px 1.5rem 0px;
 }
-
 main p.subtitulo {
   text-align: center;
   color: #393E61;
@@ -73,27 +69,23 @@ main p.subtitulo {
   font-size: 1.5rem;
   padding-bottom: 1.5rem;
 }
-
 main p.subtitulo::first-letter {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-
 main p {
   font-size: 1.2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   padding: 0px 1.3rem 1.3rem 1.3rem;
 }
-
 main p::first-letter {
   font-family: Lobster;
   font-size: 2rem;
 }
-
 main p:last-child {
   padding-bottom: 20vh;
 }
 
-picture {
+footer picture {
   position: relative;
   bottom: 120px;
 }
